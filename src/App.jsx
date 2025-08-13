@@ -1,5 +1,6 @@
 
 import Sidebar from "./component/Sidebar.jsx";
+import Navbar from "./component/Navbar.jsx";
 import "./App.css";
 
 function App() {
@@ -65,8 +66,20 @@ function App() {
       
 // );
         return(
-           <div  >
-                      <Sidebar />
+           <div className="bg-white-50 " >
+                    
+                        <Sidebar />
+
+      <div className="border-b border-black-150 sm:pl-64 bg-white-500">
+        <Navbar />
+      </div>
+                  
+                 
+                 
+
+                     
+                  
+               
            </div>
         )
 
