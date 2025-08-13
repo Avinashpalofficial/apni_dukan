@@ -1,7 +1,9 @@
 
 import Sidebar from "./component/Sidebar.jsx";
 import Navbar from "./component/Navbar.jsx";
+import Overview from "./component/Overview.jsx";
 import "./App.css";
+
 
 function App() {
 
@@ -73,6 +75,8 @@ function App() {
       <div className="border-b border-black-150 sm:pl-64 bg-white-500">
         <Navbar />
       </div>
+       {/* <Bluecard/> */}
+            <Overview/>
                   
                  
                  
