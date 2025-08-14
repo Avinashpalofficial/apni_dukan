@@ -9,7 +9,7 @@ function Sidebar(){
                 </svg>
             </button>
 
-            <aside className=' fixed text-white-200 top-0 left-0 z-40 w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-blue-900 ' >
+            <aside className=' fixed text-white-200 top-0 left-0 z-40 w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-blue-800 ' >
                 <div className='flex  '>
                     <div className='flex  items-center gap-3'  >
                       
@@ -18,9 +18,9 @@ function Sidebar(){
                         </div>
                     
                         <div className='flex items-center gap-12'>
-                            <div>
+                            <div className='text-white font-medium'>
                                 <p>Avinash</p>
-                                 <p className='cursor-pointer'>Visit store</p>
+                                 <p className='cursor-pointer underline'>Visit store</p>
                             </div>
                           
                             <div className='ml-auto'>
@@ -33,7 +33,7 @@ function Sidebar(){
                     </div>
                 </div>
                          <br />
-                <div>
+                <div className='text-white font-medium'>
                     <ul className='space-y-2'>
                         <li >
                             <a href="#" className='flex items-center gap-2 rounded-md p-2  hover:bg-gray-700'  >

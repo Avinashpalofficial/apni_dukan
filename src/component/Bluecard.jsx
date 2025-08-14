@@ -23,7 +23,7 @@ function Bluecard({ title, orderCount, amount }) {
         </div>
      
       <div className="flex justify-between">
-        <div className="text-white tex">${amount}</div>
+        <div className="text-white text-3xl">${amount}</div>
         {orderCount && (
           <div className="flex text-white">
             <div className="underline cursor-pointer">{orderCount} orders</div>

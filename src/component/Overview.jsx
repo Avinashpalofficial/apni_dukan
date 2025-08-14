@@ -1,4 +1,5 @@
 import Bluecard from "./Bluecard"
+import Revenue from "./Revenue"
 function Overview(){
     return (
         <div className="grid gap-6" >
@@ -15,6 +16,9 @@ function Overview(){
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <Bluecard title={"Next payout"} amount={"28,475"}orderCount={18}/>
+                <Revenue title={"Amount Pending"} amount={"8,54,589"} orderCount={14}/>
+                <Revenue title={"Amount Processed"} amount={"28,54,589"} />
+
             </div>
         </div>
     )
