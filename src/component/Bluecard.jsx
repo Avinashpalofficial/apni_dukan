@@ -2,7 +2,7 @@ function Bluecard({ title, orderCount, amount }) {
   return (
     <div className="rounded overflow-hidden text-white-500 ">
       <div className="bg-blue-700 p-5 grid gap-y-4 hover:bg-blue-750" >
-        <div className="flex items-center ">
+        <div className="flex items-center text-white gap-1.5 ">
          {title}
           <div>
             <svg
@@ -22,11 +22,11 @@ function Bluecard({ title, orderCount, amount }) {
           </div>
         </div>
      
-      <div className="flex">
-        <div>${amount}</div>
+      <div className="flex justify-between">
+        <div className="text-white tex">${amount}</div>
         {orderCount && (
-          <div className="flex">
-            <div>{orderCount} orders</div>
+          <div className="flex text-white">
+            <div className="underline cursor-pointer">{orderCount} orders</div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -45,7 +45,7 @@ function Bluecard({ title, orderCount, amount }) {
         )}
       </div>
        </div>
-       <div className="flex justify-between bg-blue-900 py-3 px-5">
+       <div className="flex justify-between bg-blue-900 py-3 px-5 text-white">
         <div className="">Next payout date :</div>
         <div>Today,04:00 PM</div>
        </div>

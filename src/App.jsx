@@ -76,7 +76,10 @@ function App() {
         <Navbar />
       </div>
        {/* <Bluecard/> */}
-            <Overview/>
+       <div className="m-5 mb-0 sm:ml-64 grid gap-8">
+ <Overview/>
+       </div>
+           
                   
                  
                  
