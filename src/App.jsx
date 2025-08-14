@@ -2,6 +2,7 @@
 import Sidebar from "./component/Sidebar.jsx";
 import Navbar from "./component/Navbar.jsx";
 import Overview from "./component/Overview.jsx";
+import Transaction from "./component/Transaction.jsx";
 import "./App.css";
 
 
@@ -78,8 +79,11 @@ function App() {
        {/* <Bluecard/> */}
        <div className="m-5 mb-0 sm:ml-64 grid gap-8">
  <Overview/>
+            <div className=" gap-2">
+               <Transaction/>
+            </div>
        </div>
-           
+          
                   
                  
                  
