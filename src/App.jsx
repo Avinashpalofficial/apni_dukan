@@ -5,6 +5,7 @@ import Overview from "./component/Overview.jsx";
 import Transaction from "./component/Transaction.jsx";
 import "./App.css";
 import Tabletop from "./component/Tabletop.jsx";
+import Table from "./component/Table.jsx";
 
 
 function App() {
@@ -82,9 +83,7 @@ function App() {
  <Overview/>
             <div className=" gap-2">
                <Transaction/>
-               <div className="" >
-                 <Tabletop/>
-               </div>
+               <Table/>
             </div>
        </div>
           

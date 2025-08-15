@@ -10,7 +10,7 @@ function Tabletop(){
                            
                     </div>
                             <form action="" className="w-full p-2 ">
-                            <input type="text" placeholder="search features" name="" id="" className="w-full  bg-inherit border-none focus: outline-none"/>
+                            <input type="text" placeholder="search features" name="" id="" className="w-full bg-inherit text-base pl border-gray-500 focus:outline-none"/>
                             </form>
                   </div>
                   <div className="flex justify-between items-center gap-4">
