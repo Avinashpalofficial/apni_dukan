@@ -1,6 +1,6 @@
 function Transaction(){
     return (
-        <div className=" grid gap-y-6">
+        <div className=" grid gap-y-6 bg-gray-50">
             <div className="text-2xl font-medium" >
                 <p>Transaction | This Month </p>
             </div>

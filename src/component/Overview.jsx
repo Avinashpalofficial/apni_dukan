@@ -2,7 +2,7 @@ import Bluecard from "./Bluecard"
 import Revenue from "./Revenue"
 function Overview(){
     return (
-        <div className="grid gap-6" >
+        <div className="grid gap-6 bg-gray-100" >
             <div>
                 <div className="flex justify-between items-center">
                     <p className="text-2xl font-medium">Overview</p>
